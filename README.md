@@ -153,4 +153,38 @@
 
 ## 5. Caracteres de la pantalla LCD
 
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Screenshot%202025-04-12%20233416.png" width="30%">
+
 ## 5.1 Para imprimir caracteres
+
+ - Modo de datos y modo de instrucciones funciona igual solo teniendo en cuenta los tiempos
+ - Despues de inicializada la LCD
+ - Configurar en modo de datos la LCD para recibir el caracter
+ - Cargar 4 bits mas significativos del caracter
+ - Registrar con pulso en el enable
+ - Cargar 4 bits menos significativos
+ - Registrar con pulso en enable
+
+## 5.2 Creación de caracteres en CGRAM
+
+ - Hasta 8 caracteres
+   - Debo enviarle la información de cada fila que me representa lo que quiero diseñar
+ - La dirección de la memoria CGRAM empieza en la posición 64
+
+## 5.3 Librería
+
+ - Se crea una libreria para la pantalla LCD lo importante es saber que realizara la libreria y que funcione correctamente la comunicación
+
+## 6. Conclusiones
+
+ - Las pantallas LCD son dispositivos versátiles y eficientes para mostrar información alfanumérica, utilizando una capa de cristal líquido que responde a variaciones de voltaje para controlar la visualización
+ - El controlador Hitachi HD44780 es ampliamente utilizado en pantallas LCD, ya que incluye una ROM con caracteres pregrabados y soporta comunicación tanto en 8 como en 4 bits, simplificando el diseño electrónico
+ - Las señales de control (RS, R/W, E) y de datos (DB0–DB7) permiten enviar comandos o datos a la pantalla, dependiendo del modo de operación seleccionado (4 o 8 bits), requiriendo una correcta sincronización con el pin Enable
+ - La creación de caracteres personalizados en CGRAM permite adaptar la visualización a necesidades específicas, como íconos o gráficos básicos, lo que amplía las capacidades de la LCD más allá del texto plano
+ - El uso de una librería facilita la programación y reutilización de funciones básicas, como escritura de texto, control de cursor y limpieza de pantalla, haciendo el desarrollo más ágil y modula 
+
+## 7. Autores
+
+  ### Luis Fernando Pulido Salazar - 76257
+  ### Heisen Jawer Diaz Ascencio - 137604
+
