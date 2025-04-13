@@ -124,8 +124,12 @@
 
 ### 3.2 Inicialización por instrucciones
 
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Screenshot%202025-04-12%20232111.png" width="30%">
 
+### 3.3 Set de instrucciones
 
+ - Son instrucciones predeterminadas
+ - Implementado en el Data Sheet y siempre vamos a trabajar directamente con los pines de la pantalla
 
 
 
