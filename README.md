@@ -130,10 +130,27 @@
 
  - Son instrucciones predeterminadas
  - Implementado en el Data Sheet y siempre vamos a trabajar directamente con los pines de la pantalla
+   
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Screenshot%202025-04-12%20232553.png" width="30%">
 
+## 4. Como usar la pantalla?
 
+### 4.1 Como enviar instrucciones
+ 
+ - Usar comandos necesarios para la pantalla
+ - Diferenciar si se usara en 8 Bits o 4 Bits
+ - El Enable debe estar activo un minimo de **10 segundos** parac poder usar la pantalla
 
+### 4.2 Proceso Configuración inicial
 
+ - Configurar modo de trabajo a 4 u 8 bits
+ - Configurar numero de lineas y tipo de Fuente
+   - Se repiten los bits mas significativos y se agregan los menos significativos
+- Configurar dezplazamiento de caracteres
+- Encendido del Display y configuración de cursor
+- Limpiar Display (Buenas Practicas)
+- Configuración posición Inicial
 
+## 5. Caracteres de la pantalla LCD
 
-
+## 5.1 Para imprimir caracteres
