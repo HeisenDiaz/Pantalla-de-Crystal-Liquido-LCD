@@ -4,7 +4,7 @@
 
 - Consiste en un en una capa de moléculas alineadas y con un cambio de voltaje se logra visualizar en pantalla
 
-## 1.1 Pantallas dot-matrix
+### 1.1 Pantallas dot-matrix
 
  - Se muestran caracteres establecidos y personalizados con el limite de puntos de nuestra matriz
 
@@ -20,22 +20,22 @@
 
 <img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/RC0802A1-BIW-2.png" width="20%">
 
-## 1.2 Controlador de la Pantalla
+### 1.2 Controlador de la Pantalla
  
  - Viene dotada con un tarjeta el cual es un microcontrolador que ya trae unas conexiones para limitar voltajes y asi evitar tener que hacer protecciones
 
-## 1.3 Controlador Hitachi 44780
+### 1.3 Controlador Hitachi 44780
 
  - En este viene precargado con los caracteres mas usados como alfabeto, numero, signos
 
 <img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Screenshot%202025-04-12%20223020.png" width="20%">
 
-## 1.4 Memoria de la LCD
+### 1.4 Memoria de la LCD
 
  - Es la memoria ROM viene precargado caracteres y si se llega a borrar esta memoria ya no seria funcional
  - En la ROM podemos personalizar nuestros caracteres
 
-## 1.5 Memoria de la LCD - Características físicas de la LCD HD44780
+### 1.5 Memoria de la LCD - Características físicas de la LCD HD44780
 
    - 14 pines
     
@@ -53,7 +53,7 @@
        
    - Contiene bits de estados, para identificar si hay información pendiente, los bits cambian el funcionamiento de la pantalla
 
-## 1.6 Señales de Alimentación
+### 1.6 Señales de Alimentación
 
 | PINES |            FUNCIÓN           |
 |:-----:|:----------------------------:|
@@ -61,7 +61,7 @@
 |   2   | positiva (normalmente +5Vdc) |
 |   3   | Ajuste del Contraste         |
 
-## 1.7 Señales de Control
+### 1.7 Señales de Control
 
 | PINES |                                                       FUNCIÓN                                                      |
 |:-----:|:------------------------------------------------------------------------------------------------------------------:|
@@ -69,7 +69,7 @@
 |   5   | Permite leer (𝑅/𝑊ഥ = 1) o escribir (𝑅/𝑊ഥ = 0) en el modulo LCD datos como instrucciones                         |
 |   6   | (E) Permite habilitar con E=1, o deshabilitar el Display (E=0), solo cuando esta habilitado nos  comunicar con el  |
 
-## 1.7 Señales de Datos
+### 1.7 Señales de Datos
 
 |  PINES  |                      FUNCIÓN                     |
 |:-------:|:------------------------------------------------:|
@@ -80,9 +80,56 @@
   
 ## 2.Memorias y registros de la LCD
 
-## 2.1 DDRAM (Display Dara RAM)
+### 2.1 DDRAM (Display Dara RAM)
 
 - Su capacidad es de 80 Bits
 - Cada caracter tiene asignado un espacio de memoria
+  
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Screenshot%202025-04-12%20230639.png" width="30%">
+
+### 2.2 CGRAM (Character Generator RAM)
+
+- Es el área de memoria RAM interna del LCD donde elusuario puede definir sus propios caracteres o gráficos
+- Es el area de memoria RAM 8*5 espacio de trabajo
+  
+### 2.3 CGROM (Character Generator ROM)
+
+- Es el area de memoria donde esta precargado los caracteres como:
+- Número
+- Caracteres latinos
+- griegos
+- Caracteres japoneses “Kanji”
+
+### 2.4 Registros internos
+
+ - El HD44780 tiene dos registros internos de 8 bits, un registro de datos (DR) y un registro de instrucciones (IR), que se pueden leer 
+   y escribir
+ - Registro de instrucciones
+ - Registro de datos
+   
+### 2.5 Busy Flag (BF)
+ 
+ - Nos avisa si la pantalla esta haciendo una operación y no puede atender la siguiente instrucción
+
+### 2.6 Address Counter (AC)
+
+ - Nos sirve para el control de la DDRAM, nos permite desplazarnos entre posiciones en la pantalla
+
+
+## 3. Inicialización de la pantalla LCD
+
+### 3.1 Inicialización por reset interno
+
+- Se le quita la alimentacion y el automaticamente se reinicia y enciende la pantalla, se debe esperar un tiempo entrre 0.1 ms < 10 ms
+
+### 3.2 Inicialización por instrucciones
+
+
+
+
+
+
+
+
 
 
