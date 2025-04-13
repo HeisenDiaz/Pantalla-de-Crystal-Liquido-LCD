@@ -16,5 +16,5 @@
 - Se numera de acuerdo a sus filas y sus columnas
 - Cada caracter esta separado por cada matriz de pixeles o matriz de puntos
   
-<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Liquid-Crystal-Display-16x2-1.png" width="10%">
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/D_NQ_NP_844791-MCO48762011723_012022-O.webp" width="10%">
 <img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Liquid-Crystal-Display-16x2-1.png" width="10%">
