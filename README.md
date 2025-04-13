@@ -16,5 +16,14 @@
 - Se numera de acuerdo a sus filas y sus columnas
 - Cada caracter esta separado por cada matriz de pixeles o matriz de puntos
   
-<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/D_NQ_NP_844791-MCO48762011723_012022-O.webp" width="10%">
-<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/Liquid-Crystal-Display-16x2-1.png" width="10%">
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/D_NQ_NP_844791-MCO48762011723_012022-O.webp" width="20%">
+
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/RC0802A1-BIW-2.png" width="20%">
+
+## 1.2 Controlador de la Pantalla
+ 
+ - Viene dotada con un tarjeta el cual es un microcontrolador que ya trae unas conexiones para limitar voltajes y asi evitar tener que hacer protecciones
+
+## 1.3 Controlador Hitachi 44780
+
+<img src="https://github.com/HeisenDiaz/Pantalla-de-Crystal-Liquido-LCD/blob/main/RC0802A1-BIW-2.png" width="20%">
